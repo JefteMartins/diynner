@@ -22,13 +22,15 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
             UserAccountsDrawerHeader(
-                currentAccountPicture: Image.asset('assets/images/logo.png'),
+                currentAccountPicture: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: Image.asset('assets/images/logo.png')),
                 accountName: Text('Teste de Teste'),
                 accountEmail: Text('Teste@teste.com')),
             ListTile(
-              leading: Icon(Icons.home),
-              title: Text('Incício'),
-              subtitle: Text('Tela inicial'),
+              leading: Icon(Icons.logout),
+              title: Text('Deslogar'),
+              subtitle: Text('Sair da sua conta'),
               onTap: () {
                 Navigator.of(context).pushReplacementNamed('/');
               },
