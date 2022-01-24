@@ -1,4 +1,5 @@
 import 'package:diynner_alt/app_controller.dart';
+import 'package:diynner_alt/item_detail.dart';
 import 'package:diynner_alt/login_page.dart';
 import 'package:flutter/material.dart';
 
