@@ -28,11 +28,26 @@ class _itemDetailState extends State<itemDetail> {
           body: SingleChildScrollView(
             child: Column(
               children: [
-                Image.asset('assets/images/comida.jpg', fit: BoxFit.fitWidth),
-                Text(widget.title),
+                Image.asset(
+                  'assets/images/comida.jpg',
+                  fit: BoxFit.fitWidth,
+                ),
+                Text(
+                  widget.title,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 40,
+                  ),
+                ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Text(loremIpsum),
+                  child: Text(
+                    loremIpsum,
+                    style: TextStyle(
+                      fontFamily: 'Roboto',
+                      fontSize: 20,
+                    ),
+                  ),
                 ),
               ],
             ),
@@ -41,5 +56,20 @@ class _itemDetailState extends State<itemDetail> {
   }
 }
 
-String loremIpsum =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus, ex vitae fringilla tempus, sapien urna vulputate nisi, sed sagittis urna libero ac metus. Suspendisse quis velit urna. Cras elementum est leo, id sagittis lectus sollicitudin maximus. Integer vitae tempus libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent a orci ut massa ornare eleifend. Etiam pharetra lacus eu nisl porta imperdiet. Integer vel tristique felis, eu convallis massa. Vivamus rhoncus cursus dolor, sit amet porttitor enim scelerisque nec. Curabitur pharetra erat eget purus auctor, quis pulvinar odio consequat. Suspendisse efficitur lectus lacus, in scelerisque arcu pellentesque ac. Donec feugiat ut nibh ut hendrerit. Aenean feugiat, mauris vel mattis luctus, metus diam consequat lorem, at blandit metus ex ut lorem. Nam eu nunc congue, semper leo vitae, varius felis. Aenean justo dolor, facilisis id libero quis, semper convallis risus. Ut porttitor purus quis velit pellentesque commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus, ex vitae fringilla tempus, sapien urna vulputate nisi, sed sagittis urna libero ac metus. Suspendisse quis velit urna. Cras elementum est leo, id sagittis lectus sollicitudin maximus. Integer vitae tempus libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent a orci ut massa ornare eleifend. Etiam pharetra lacus eu nisl porta imperdiet. Integer vel tristique felis, eu convallis massa. Vivamus rhoncus cursus dolor, sit amet porttitor enim scelerisque nec. Curabitur pharetra erat eget purus auctor, quis pulvinar odio consequat. Suspendisse efficitur lectus lacus, in scelerisque arcu pellentesque ac. Donec feugiat ut nibh ut hendrerit. Aenean feugiat, mauris vel mattis luctus, metus diam consequat lorem, at blandit metus ex ut lorem. Nam eu nunc congue, semper leo vitae, varius felis. Aenean justo dolor, facilisis id libero quis, semper convallis risus. Ut porttitor purus quis velit pellentesque commodo.";
+String loremIpsum = '''
+    2 xícaras de chá de farinho de trigo
+    1 ovo (grande)
+    2 colheres de sopa de açúcar
+    1 colher pequena de fermento em pó
+    1/2 copo de leite
+    Canela em pó
+    
+    1.Coloque em um recipiente o açúcar, o ovo inteiro, o trigo e 
+    o leite.
+
+    2.Bata até obter uma massa homogênea.
+
+    3.Frite e polvilhe com açúcar e canela.
+    
+    
+    ''';
