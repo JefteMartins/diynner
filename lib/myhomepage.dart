@@ -1,6 +1,4 @@
 import 'dart:convert';
-import 'dart:ffi';
-
 import 'package:diynner_alt/app_controller.dart';
 import 'package:diynner_alt/item_detail.dart';
 import 'package:flutter/material.dart';
@@ -55,7 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
               onTap: () {
                 Navigator.of(context).pushReplacementNamed('/');
               },
-            )
+            ),
+            CustomSwitch(),
           ],
         ),
       ),
