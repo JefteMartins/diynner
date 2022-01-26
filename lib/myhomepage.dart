@@ -1,6 +1,10 @@
+import 'dart:convert';
+import 'dart:ffi';
+
 import 'package:diynner_alt/app_controller.dart';
 import 'package:diynner_alt/item_detail.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'main.dart';
 
@@ -15,6 +19,23 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  List _items = [];
+
+  // Fetch content from the json file
+  Future<void> readJson() async {
+    final String response =
+        await rootBundle.loadString('assets/json/info.json');
+    final data = await json.decode(response);
+    setState(() {
+      _items = data["data"];
+    });
+  }
+
+  @override
+  void initState() {
+    this.readJson();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
