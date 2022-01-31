@@ -1,8 +1,5 @@
-import 'package:diynner_alt/app_controller.dart';
 import 'package:flutter/material.dart';
 import 'myhomepage.dart';
-import 'main.dart';
-import 'myapp.dart';
 
 class itemDetail extends StatefulWidget {
   const itemDetail({
@@ -56,7 +53,8 @@ class _itemDetailState extends State<itemDetail> {
   }
 }
 
-String loremIpsum = '''
+String loremIpsum =
+    '''
     2 xícaras de chá de farinho de trigo
     1 ovo (grande)
     2 colheres de sopa de açúcar
