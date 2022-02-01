@@ -38,12 +38,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.of(context).pushReplacementNamed('/');
                 },
               ),
+              CustomSwitch(),
             ],
           ),
         ),
         appBar: AppBar(
           title: Text(widget.title),
-          actions: [CustomSwitch()],
         ),
         body: FutureBuilder(
           future: ReadJsonData(),
