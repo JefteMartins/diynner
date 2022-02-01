@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 import 'myhomepage.dart';
 
 class itemDetail extends StatefulWidget {
-  const itemDetail({
-    Key? key,
-    required this.title,
-  }) : super(key: key);
+  const itemDetail({Key? key, required this.title, required this.image})
+      : super(key: key);
 
   final String title;
+  final String image;
 
   @override
   _itemDetailState createState() => _itemDetailState();
@@ -18,15 +17,12 @@ class _itemDetailState extends State<itemDetail> {
   Widget build(BuildContext context) {
     return Material(
       child: Scaffold(
-          appBar: AppBar(
-            title: Text(widget.title),
-            actions: [CustomSwitch()],
-          ),
+          appBar: AppBar(title: Text(widget.title)),
           body: SingleChildScrollView(
             child: Column(
               children: [
-                Image.asset(
-                  'assets/images/comida.jpg',
+                Image(
+                  image: NetworkImage(widget.image),
                   fit: BoxFit.fitWidth,
                 ),
                 Text(
@@ -53,8 +49,7 @@ class _itemDetailState extends State<itemDetail> {
   }
 }
 
-String loremIpsum =
-    '''
+String loremIpsum = '''
     2 xícaras de chá de farinho de trigo
     1 ovo (grande)
     2 colheres de sopa de açúcar

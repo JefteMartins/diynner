@@ -38,7 +38,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.of(context).pushReplacementNamed('/');
                 },
               ),
-              CustomSwitch(),
             ],
           ),
         ),
@@ -60,8 +59,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       onTap: () => {
                         debugPrint('${items[index].name} foi selecionado'),
                         Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) =>
-                                itemDetail(title: '${items[index].name}'))),
+                            builder: (context) => itemDetail(
+                                  title: '${items[index].name}',
+                                  image: items[index].image.toString(),
+                                ))),
                       },
                       child: Card(
                         elevation: 5,
@@ -76,9 +77,10 @@ class _MyHomePageState extends State<MyHomePage> {
                               Container(
                                 width: 50,
                                 height: 50,
-                                child: Image.asset(
-                                  'assets/images/comida.jpg',
-                                  fit: BoxFit.fitHeight,
+                                child: Image(
+                                  image: NetworkImage(
+                                      items[index].image.toString()),
+                                  fit: BoxFit.fill,
                                 ),
                               ),
                               Expanded(
@@ -138,14 +140,7 @@ class CustomSwitch extends StatelessWidget {
   }
 }
 
-class Item {
-  final String title;
-  final String description;
-
-  const Item(this.title, this.description);
-}
-
-buildListView() {
+/* buildListView() {
   final itens = List<String>.generate(20, (i) => 'Item $i');
 
   return ListView.builder(
@@ -163,4 +158,4 @@ buildListView() {
       );
     },
   );
-}
+} */

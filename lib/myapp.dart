@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           routes: {
             '/': (context) => LoginPage(),
             '/home': (context) => MyHomePage(
-                  title: 'DYInner',
+                  title: 'DIYnner',
                 ),
           },
         );
