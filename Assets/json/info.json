@@ -3,66 +3,76 @@
         
       "id": 1,
       "name": "Arroz à grega",
-      "image": "https://img.cybercook.com.br/receitas/436/arroz-a-grega-8.jpeg"
+      "image": "https://img.cybercook.com.br/receitas/436/arroz-a-grega-8.jpeg",
+      "recipe": "3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n"
     },
     {
         
       "id": 2,
       "name": "Pudim",
-      "image": "https://img.itdg.com.br/tdg/images/recipes/000/031/593/318825/318825_original.jpg"
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/031/593/318825/318825_original.jpg",
+      "recipe":"3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n"
     },
     {
         
       "id": 3,
       "name": "Feijoada",
-      "image": "https://cdn.panelinha.com.br/receita/1588270905274-39_Panelinha_12_02_200635.jpg"
+      "image": "https://cdn.panelinha.com.br/receita/1588270905274-39_Panelinha_12_02_200635.jpg",
+      "recipe":"3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n"
     },
     {
         
       "id": 4,
       "name": "Feijão tropeiro",
-      "image": "https://img.itdg.com.br/tdg/images/recipes/000/000/961/327806/327806_original.jpg"
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/000/961/327806/327806_original.jpg",
+      "recipe":"3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n"
     },
     
     {
         
       "id": 5,
       "name": "Bolo de chocolate",
-      "image": "https://i.ytimg.com/vi/QwtZXGRzqvY/maxresdefault.jpg"
+      "image": "https://i.ytimg.com/vi/QwtZXGRzqvY/maxresdefault.jpg",
+      "recipe":"3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n"
     },
     
     {
         
       "id": 6,
       "name": "Bolo de cenoura com chocolate",
-      "image":"https://assets.unileversolutions.com/recipes-v2/67405.jpg"
+      "image":"https://assets.unileversolutions.com/recipes-v2/67405.jpg",
+      "recipe":"3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n"
     },
     {
         
       "id": 7,
       "name": "Fricassê",
-      "image": "https://assets.unileversolutions.com/recipes-v2/212080.png"
+      "image": "https://assets.unileversolutions.com/recipes-v2/212080.png",
+      "recipe":"3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n"
     },
     
     {
         
       "id": 8,
       "name": "Creme de galinha",
-      "image": "https://t1.rg.ltmcdn.com/pt/posts/8/7/7/creme_de_galinha_com_maizena_6778_orig.jpg"
+      "image": "https://achougastronomia.com.br/wp-content/uploads/2022/01/Receita-de-creme-de-galinha.jpg",
+      "recipe":"3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n"
     },
     
     {
         
       "id": 9,
       "name": "Lasanha",
-      "image": "https://sanremo.imgix.net/2017/05/Traditional-Lasagna-Plated-1500x1000.jpg?auto=format&w=2000"
+      "image": "https://sanremo.imgix.net/2017/05/Traditional-Lasagna-Plated-1500x1000.jpg?auto=format&w=2000",
+      "recipe":"3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n"
     },
     
     {
         
       "id": 10,
       "name": "Macarronada",
-      "image": "https://img.cybercook.com.br/receitas/634/macarronada-3.jpeg"
+      "image": "https://img.cybercook.com.br/receitas/634/macarronada-3.jpeg",
+      "recipe":"3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n"
     }
     
   ]

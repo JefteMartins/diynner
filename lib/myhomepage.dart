@@ -62,6 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             builder: (context) => itemDetail(
                                   title: '${items[index].name}',
                                   image: items[index].image.toString(),
+                                  recipe: items[index].recipe.toString(),
                                 ))),
                       },
                       child: Card(
