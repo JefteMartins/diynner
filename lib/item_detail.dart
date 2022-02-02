@@ -1,3 +1,4 @@
+import 'package:diynner_alt/item_payment.dart';
 import 'package:flutter/material.dart';
 import 'myhomepage.dart';
 
@@ -33,9 +34,10 @@ class _itemDetailState extends State<itemDetail> {
                 fit: BoxFit.fitWidth,
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.only(
+                    top: 8, bottom: 8, right: 8, left: 20),
                 child: Text(
-                  "Receita",
+                  "Pagamento",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 25,
@@ -43,7 +45,8 @@ class _itemDetailState extends State<itemDetail> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.only(
+                    top: 8, bottom: 8, right: 8, left: 15),
                 child: Text(
                   widget.recipe,
                   style: TextStyle(
@@ -57,7 +60,8 @@ class _itemDetailState extends State<itemDetail> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            // Add your onPressed code here!
+            Navigator.of(context)
+                .push(MaterialPageRoute(builder: (context) => Itempayment()));
           },
           backgroundColor: Colors.orangeAccent,
           child: const Icon(Icons.shopping_cart_outlined),
@@ -66,21 +70,3 @@ class _itemDetailState extends State<itemDetail> {
     );
   }
 }
-
-String loremIpsum = '''
-    2 xícaras de chá de farinho de trigo
-    1 ovo (grande)
-    2 colheres de sopa de açúcar
-    1 colher pequena de fermento em pó
-    1/2 copo de leite
-    Canela em pó
-    
-    1.Coloque em um recipiente o açúcar, o ovo inteiro, o trigo e 
-    o leite.
-
-    2.Bata até obter uma massa homogênea.
-
-    3.Frite e polvilhe com açúcar e canela.
-    
-    
-    ''';

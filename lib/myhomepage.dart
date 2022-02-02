@@ -57,7 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   itemBuilder: (context, index) {
                     return GestureDetector(
                       onTap: () => {
-                        debugPrint('${items[index].name} foi selecionado'),
+                        debugPrint(
+                            'Item $index, ${items[index].name} foi selecionado'),
                         Navigator.of(context).push(MaterialPageRoute(
                             builder: (context) => itemDetail(
                                   title: '${items[index].name}',
@@ -81,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 child: Image(
                                   image: NetworkImage(
                                       items[index].image.toString()),
-                                  fit: BoxFit.fill,
+                                  fit: BoxFit.fitHeight,
                                 ),
                               ),
                               Expanded(
