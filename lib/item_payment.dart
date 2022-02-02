@@ -22,7 +22,7 @@ class _ItempaymentState extends State<Itempayment> {
                 padding: const EdgeInsets.only(
                     top: 8, bottom: 8, right: 8, left: 20),
                 child: Text(
-                  "Receita",
+                  "Pagamento",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 25,

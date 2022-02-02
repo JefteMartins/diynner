@@ -37,7 +37,7 @@ class _itemDetailState extends State<itemDetail> {
                 padding: const EdgeInsets.only(
                     top: 8, bottom: 8, right: 8, left: 20),
                 child: Text(
-                  "Pagamento",
+                  "Receita",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 25,
