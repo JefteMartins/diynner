@@ -1,8 +1,10 @@
+import 'dart:convert';
+
 class InfoDataModel {
   int? id;
   String? name;
   String? image;
-  String? recipe;
+  Recipe? recipe;
 
   InfoDataModel(
       {required this.id,
@@ -14,6 +16,16 @@ class InfoDataModel {
     id = json['id'];
     name = json['name'];
     image = json['image'];
-    recipe = json['recipe'];
+    recipe = Recipe.fromJson(json['recipe']);
+  }
+}
+
+class Recipe {
+  String? item;
+
+  Recipe({required this.item});
+
+  Recipe.fromJson(Map<String, dynamic> json) {
+    item = json['item'];
   }
 }
