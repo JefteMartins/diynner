@@ -16,7 +16,7 @@ class itemDetail extends StatefulWidget {
 
   final String title;
   final String image;
-  final String recipe;
+  final List<Recipe> recipe;
 
   @override
   _itemDetailState createState() => _itemDetailState();
@@ -51,12 +51,25 @@ class _itemDetailState extends State<itemDetail> {
               Padding(
                 padding: const EdgeInsets.only(
                     top: 8, bottom: 8, right: 8, left: 15),
-                child: Text(
-                  widget.recipe,
-                  style: TextStyle(
-                    fontFamily: 'Roboto',
-                    fontSize: 12,
-                  ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    ...widget.recipe
+                        .map(
+                          (e) => Text(
+                            "${e.quantity} ${e.measure} de ${e.item} " ?? "",
+                            style: TextStyle(
+                              fontFamily: 'Roboto',
+                              fontSize: 18,
+                            ),
+                            softWrap: true,
+                            maxLines: 10,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        )
+                        .toList()
+                  ],
                 ),
               ),
             ],
@@ -74,3 +87,4 @@ class _itemDetailState extends State<itemDetail> {
     );
   }
 }
+/* "3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n" */

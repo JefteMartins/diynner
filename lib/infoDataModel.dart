@@ -2,7 +2,7 @@ class InfoDataModel {
   int? id;
   String? name;
   String? image;
-  Recipe? recipe;
+  List<Recipe>? recipe;
 
   InfoDataModel({this.id, this.name, this.image, this.recipe});
 
@@ -10,8 +10,12 @@ class InfoDataModel {
     id = json['id'];
     name = json['name'];
     image = json['image'];
-    recipe =
-        json['recipe'] != null ? new Recipe.fromJson(json['recipe']) : null;
+    if (json['recipe'] != null) {
+      recipe = <Recipe>[];
+      json['recipe'].forEach((v) {
+        recipe!.add(new Recipe.fromJson(v));
+      });
+    }
   }
 
   Map<String, dynamic> toJson() {
@@ -20,50 +24,33 @@ class InfoDataModel {
     data['name'] = this.name;
     data['image'] = this.image;
     if (this.recipe != null) {
-      data['recipe'] = this.recipe!.toJson();
+      data['recipe'] = this.recipe!.map((v) => v.toJson()).toList();
     }
     return data;
   }
 }
 
 class Recipe {
-  Item? item;
-  Item? item2;
+  String? item;
+  int? value;
+  int? quantity;
+  String? measure;
 
-  Recipe({this.item, this.item2});
+  Recipe({this.item, this.value, this.quantity, this.measure});
 
   Recipe.fromJson(Map<String, dynamic> json) {
-    item = json['item'] != null ? new Item.fromJson(json['item']) : null;
-    item2 = json['item2'] != null ? new Item.fromJson(json['item2']) : null;
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    if (this.item != null) {
-      data['item'] = this.item!.toJson();
-    }
-    if (this.item2 != null) {
-      data['item2'] = this.item2!.toJson();
-    }
-    return data;
-  }
-}
-
-class Item {
-  String? name;
-  int? value;
-
-  Item({this.name, this.value});
-
-  Item.fromJson(Map<String, dynamic> json) {
-    name = json['name'];
+    item = json['item'];
     value = json['value'];
+    quantity = json['quantity'];
+    measure = json['measure'];
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['name'] = this.name;
+    data['item'] = this.item;
     data['value'] = this.value;
+    data['quantity'] = this.quantity;
+    data['measure'] = this.measure;
     return data;
   }
 }
