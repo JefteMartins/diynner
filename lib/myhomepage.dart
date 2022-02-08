@@ -66,47 +66,53 @@ class _MyHomePageState extends State<MyHomePage> {
                                   recipe: items[index].recipe!,
                                 ))),
                       },
-                      child: Card(
-                        elevation: 5,
-                        margin:
-                            EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-                        child: Container(
-                          padding: EdgeInsets.all(8),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Container(
-                                width: 50,
-                                height: 50,
-                                child: Image(
-                                  image: NetworkImage(
-                                      items[index].image.toString()),
-                                  fit: BoxFit.fitHeight,
-                                ),
-                              ),
-                              Expanded(
-                                  child: Container(
-                                padding: EdgeInsets.only(bottom: 8),
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Padding(
-                                      padding:
-                                          EdgeInsets.only(left: 8, right: 8),
-                                      child: Text(
-                                        items[index].name.toString(),
-                                        style: TextStyle(
-                                            fontSize: 16,
-                                            fontWeight: FontWeight.bold),
-                                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(0),
+                        child: Card(
+                          elevation: 5,
+                          margin:
+                              EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                          child: Container(
+                            padding: EdgeInsets.all(0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Container(
+                                  width: 70,
+                                  height: 70,
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(3),
+                                    child: Image(
+                                      image: NetworkImage(
+                                          items[index].image.toString()),
+                                      fit: BoxFit.fitHeight,
                                     ),
-                                    //Padding(padding: EdgeInsets.only(left: 8,right: 8),child: Text(items[index].price.toString()),)
-                                  ],
+                                  ),
                                 ),
-                              ))
-                            ],
+                                Expanded(
+                                    child: Container(
+                                  padding: EdgeInsets.only(bottom: 8),
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Padding(
+                                        padding:
+                                            EdgeInsets.only(left: 8, right: 8),
+                                        child: Text(
+                                          items[index].name.toString(),
+                                          style: TextStyle(
+                                              fontSize: 16,
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ))
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -141,23 +147,3 @@ class CustomSwitch extends StatelessWidget {
     );
   }
 }
-
-/* buildListView() {
-  final itens = List<String>.generate(20, (i) => 'Item $i');
-
-  return ListView.builder(
-    itemCount: itens.length,
-    itemBuilder: (context, index) {
-      return ListTile(
-        leading: Icon(Icons.fastfood),
-        title: Text('${itens[index]}'),
-        onTap: () {
-          debugPrint('${itens[index]} foi selecionado');
-          Navigator.of(context).push(MaterialPageRoute(
-              builder: (context) => itemDetail(title: '${itens[index]}')));
-        },
-        minVerticalPadding: 20,
-      );
-    },
-  );
-} */

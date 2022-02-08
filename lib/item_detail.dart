@@ -77,8 +77,12 @@ class _itemDetailState extends State<itemDetail> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            Navigator.of(context)
-                .push(MaterialPageRoute(builder: (context) => Itempayment()));
+            Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => Itempayment(
+                      title: widget.title,
+                      image: widget.image,
+                      recipe: widget.recipe,
+                    )));
           },
           backgroundColor: Colors.orangeAccent,
           child: const Icon(Icons.shopping_cart_outlined),
@@ -87,4 +91,3 @@ class _itemDetailState extends State<itemDetail> {
     );
   }
 }
-/* "3 xícaras de arroz \n\n 6 xícaras de água\n\n 1 caixa de uvas-passasn\n\n queijo parmesão ralado\n\n 5 colheres de ervilha\n\n 1 colher de manteiga\n\n óleo\n\n pimentão\n\n cebola\n\n salsa\n\n cebolinha verde\n\n cenoura a gosto\n\n sal a gosto\n\n" */
