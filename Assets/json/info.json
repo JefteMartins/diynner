@@ -3,62 +3,103 @@
       
     "id": 1,
     "name": "Arroz à grega",
-    "image": "https://img.cybercook.com.br/receitas/436/arroz-a-grega-8.jpeg",
+    "image": "https://img.itdg.com.br/tdg/images/recipes/000/088/750/352590/352590_original.jpg?w=1200",
     "recipe":[
       {
         "item":"arroz",
         "value":5,
         "quantity":3,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo": "carboidrato"
         
       },
       {
         "item":"água",
         "value":0,
         "quantity":6,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"uva-passa",
         "value":7,
         "quantity":1,
-        "measure":"caixa"
+        "measure":"caixa",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"queijo parmesão ralado",
         "value":8,
         "quantity":200,
-        "measure":"gramas"
+        "measure":"gramas",
+        "tipo":"proteina"
         
       },
       {
         "item":"ervilha",
         "value":4,
         "quantity":5,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"manteiga",
         "value":5,
         "quantity":1,
-        "measure":"colher"
+        "measure":"colher",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"óleo",
         "value":2,
         "quantity":2,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"pimentão",
         "value":4,
         "quantity":1,
-        "measure":""
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"cebola",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"Salsa",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"ceblinha verde",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      }
+      ,
+      {
+        "item":"cenoura",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
         
       }
     ]
@@ -73,56 +114,97 @@
         "item":"arroz",
         "value":5,
         "quantity":3,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo": "carboidrato"
         
       },
       {
         "item":"água",
         "value":0,
         "quantity":6,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"uva-passa",
         "value":7,
         "quantity":1,
-        "measure":"caixa"
+        "measure":"caixa",
+        "tipo":"acompanhamento"
         
       },
       {
-        "item":"Queijo parmesão ralado",
+        "item":"queijo parmesão ralado",
         "value":8,
         "quantity":200,
-        "measure":"gramas"
+        "measure":"gramas",
+        "tipo":"proteína"
         
       },
       {
         "item":"ervilha",
         "value":4,
         "quantity":5,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"manteiga",
         "value":5,
         "quantity":1,
-        "measure":"colher"
+        "measure":"colher",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"óleo",
         "value":2,
         "quantity":2,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"pimentão",
         "value":4,
         "quantity":1,
-        "measure":""
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"cebola",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"Salsa",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"ceblinha verde",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      }
+      ,
+      {
+        "item":"cenoura",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
         
       }
     ]
@@ -137,56 +219,97 @@
         "item":"arroz",
         "value":5,
         "quantity":3,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo": "carboidrato"
         
       },
       {
         "item":"água",
         "value":0,
         "quantity":6,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"uva-passa",
         "value":7,
         "quantity":1,
-        "measure":"caixa"
+        "measure":"caixa",
+        "tipo":"acompanhamento"
         
       },
       {
-        "item":"Queijo parmesão ralado",
+        "item":"queijo parmesão ralado",
         "value":8,
         "quantity":200,
-        "measure":"gramas"
+        "measure":"gramas",
+        "tipo":"proteína"
         
       },
       {
         "item":"ervilha",
         "value":4,
         "quantity":5,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"manteiga",
         "value":5,
         "quantity":1,
-        "measure":"colher"
+        "measure":"colher",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"óleo",
         "value":2,
         "quantity":2,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"pimentão",
         "value":4,
         "quantity":1,
-        "measure":""
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"cebola",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"Salsa",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"ceblinha verde",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      }
+      ,
+      {
+        "item":"cenoura",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
         
       }
     ]
@@ -201,56 +324,97 @@
         "item":"arroz",
         "value":5,
         "quantity":3,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo": "carboidrato"
         
       },
       {
         "item":"água",
         "value":0,
         "quantity":6,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"uva-passa",
         "value":7,
         "quantity":1,
-        "measure":"caixa"
+        "measure":"caixa",
+        "tipo":"acompanhamento"
         
       },
       {
-        "item":"Queijo parmesão ralado",
+        "item":"queijo parmesão ralado",
         "value":8,
         "quantity":200,
-        "measure":"gramas"
+        "measure":"gramas",
+        "tipo":"proteína"
         
       },
       {
         "item":"ervilha",
         "value":4,
         "quantity":5,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"manteiga",
         "value":5,
         "quantity":1,
-        "measure":"colher"
+        "measure":"colher",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"óleo",
         "value":2,
         "quantity":2,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"pimentão",
         "value":4,
         "quantity":1,
-        "measure":""
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"cebola",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"Salsa",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"ceblinha verde",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      }
+      ,
+      {
+        "item":"cenoura",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
         
       }
     ]
@@ -266,56 +430,97 @@
         "item":"arroz",
         "value":5,
         "quantity":3,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo": "carboidrato"
         
       },
       {
         "item":"água",
         "value":0,
         "quantity":6,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"uva-passa",
         "value":7,
         "quantity":1,
-        "measure":"caixa"
+        "measure":"caixa",
+        "tipo":"acompanhamento"
         
       },
       {
-        "item":"Queijo parmesão ralado",
+        "item":"queijo parmesão ralado",
         "value":8,
         "quantity":200,
-        "measure":"gramas"
+        "measure":"gramas",
+        "tipo":"proteína"
         
       },
       {
         "item":"ervilha",
         "value":4,
         "quantity":5,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"manteiga",
         "value":5,
         "quantity":1,
-        "measure":"colher"
+        "measure":"colher",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"óleo",
         "value":2,
         "quantity":2,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"pimentão",
         "value":4,
         "quantity":1,
-        "measure":""
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"cebola",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"Salsa",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"ceblinha verde",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      }
+      ,
+      {
+        "item":"cenoura",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
         
       }
     ]
@@ -331,56 +536,97 @@
         "item":"arroz",
         "value":5,
         "quantity":3,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo": "carboidrato"
         
       },
       {
         "item":"água",
         "value":0,
         "quantity":6,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"uva-passa",
         "value":7,
         "quantity":1,
-        "measure":"caixa"
+        "measure":"caixa",
+        "tipo":"acompanhamento"
         
       },
       {
-        "item":"Queijo parmesão ralado",
+        "item":"queijo parmesão ralado",
         "value":8,
         "quantity":200,
-        "measure":"gramas"
+        "measure":"gramas",
+        "tipo":"proteína"
         
       },
       {
         "item":"ervilha",
         "value":4,
         "quantity":5,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"manteiga",
         "value":5,
         "quantity":1,
-        "measure":"colher"
+        "measure":"colher",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"óleo",
         "value":2,
         "quantity":2,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"pimentão",
         "value":4,
         "quantity":1,
-        "measure":""
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"cebola",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"Salsa",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"ceblinha verde",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      }
+      ,
+      {
+        "item":"cenoura",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
         
       }
     ]
@@ -395,56 +641,97 @@
         "item":"arroz",
         "value":5,
         "quantity":3,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo": "carboidrato"
         
       },
       {
         "item":"água",
         "value":0,
         "quantity":6,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"uva-passa",
         "value":7,
         "quantity":1,
-        "measure":"caixa"
+        "measure":"caixa",
+        "tipo":"acompanhamento"
         
       },
       {
-        "item":"Queijo parmesão ralado",
+        "item":"queijo parmesão ralado",
         "value":8,
         "quantity":200,
-        "measure":"gramas"
+        "measure":"gramas",
+        "tipo":"proteína"
         
       },
       {
         "item":"ervilha",
         "value":4,
         "quantity":5,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"manteiga",
         "value":5,
         "quantity":1,
-        "measure":"colher"
+        "measure":"colher",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"óleo",
         "value":2,
         "quantity":2,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"pimentão",
         "value":4,
         "quantity":1,
-        "measure":""
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"cebola",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"Salsa",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"ceblinha verde",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      }
+      ,
+      {
+        "item":"cenoura",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
         
       }
     ]
@@ -460,56 +747,97 @@
         "item":"arroz",
         "value":5,
         "quantity":3,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo": "carboidrato"
         
       },
       {
         "item":"água",
         "value":0,
         "quantity":6,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"uva-passa",
         "value":7,
         "quantity":1,
-        "measure":"caixa"
+        "measure":"caixa",
+        "tipo":"acompanhamento"
         
       },
       {
-        "item":"Queijo parmesão ralado",
+        "item":"queijo parmesão ralado",
         "value":8,
         "quantity":200,
-        "measure":"gramas"
+        "measure":"gramas",
+        "tipo":"proteína"
         
       },
       {
         "item":"ervilha",
         "value":4,
         "quantity":5,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"manteiga",
         "value":5,
         "quantity":1,
-        "measure":"colher"
+        "measure":"colher",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"óleo",
         "value":2,
         "quantity":2,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"pimentão",
         "value":4,
         "quantity":1,
-        "measure":""
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"cebola",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"Salsa",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"ceblinha verde",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      }
+      ,
+      {
+        "item":"cenoura",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
         
       }
     ]
@@ -525,56 +853,97 @@
         "item":"arroz",
         "value":5,
         "quantity":3,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo": "carboidrato"
         
       },
       {
         "item":"água",
         "value":0,
         "quantity":6,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"uva-passa",
         "value":7,
         "quantity":1,
-        "measure":"caixa"
+        "measure":"caixa",
+        "tipo":"acompanhamento"
         
       },
       {
-        "item":"Queijo parmesão ralado",
+        "item":"queijo parmesão ralado",
         "value":8,
         "quantity":200,
-        "measure":"gramas"
+        "measure":"gramas",
+        "tipo":"proteína"
         
       },
       {
         "item":"ervilha",
         "value":4,
         "quantity":5,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"manteiga",
         "value":5,
         "quantity":1,
-        "measure":"colher"
+        "measure":"colher",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"óleo",
         "value":2,
         "quantity":2,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"pimentão",
         "value":4,
         "quantity":1,
-        "measure":""
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"cebola",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"Salsa",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"ceblinha verde",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      }
+      ,
+      {
+        "item":"cenoura",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
         
       }
     ]
@@ -590,56 +959,97 @@
         "item":"arroz",
         "value":5,
         "quantity":3,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo": "carboidrato"
         
       },
       {
         "item":"água",
         "value":0,
         "quantity":6,
-        "measure":"xícaras"
+        "measure":"xícaras",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"uva-passa",
         "value":7,
         "quantity":1,
-        "measure":"caixa"
+        "measure":"caixa",
+        "tipo":"acompanhamento"
         
       },
       {
-        "item":"Queijo parmesão ralado",
+        "item":"queijo parmesão ralado",
         "value":8,
         "quantity":200,
-        "measure":"gramas"
+        "measure":"gramas",
+        "tipo":"proteína"
         
       },
       {
         "item":"ervilha",
         "value":4,
         "quantity":5,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"manteiga",
         "value":5,
         "quantity":1,
-        "measure":"colher"
+        "measure":"colher",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"óleo",
         "value":2,
         "quantity":2,
-        "measure":"colheres"
+        "measure":"colheres",
+        "tipo":"acompanhamento"
         
       },
       {
         "item":"pimentão",
         "value":4,
         "quantity":1,
-        "measure":""
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"cebola",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"Salsa",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      },
+      {
+        "item":"ceblinha verde",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
+        
+      }
+      ,
+      {
+        "item":"cenoura",
+        "value":4,
+        "quantity":1,
+        "measure":"",
+        "tipo":"acompanhamento"
         
       }
     ]

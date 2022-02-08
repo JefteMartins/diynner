@@ -50,25 +50,23 @@ class _itemDetailState extends State<itemDetail> {
               ),
               Padding(
                 padding: const EdgeInsets.only(
+                    top: 8, bottom: 8, right: 8, left: 20),
+                child: Text(
+                  "Proteínas",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 18,
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(
                     top: 8, bottom: 8, right: 8, left: 15),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    ...widget.recipe
-                        .map(
-                          (e) => Text(
-                            "${e.quantity} ${e.measure} de ${e.item} " ?? "",
-                            style: TextStyle(
-                              fontFamily: 'Roboto',
-                              fontSize: 18,
-                            ),
-                            softWrap: true,
-                            maxLines: 10,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        )
-                        .toList()
+                    ...recipeProtein(),
                   ],
                 ),
               ),
@@ -89,5 +87,20 @@ class _itemDetailState extends State<itemDetail> {
         ),
       ),
     );
+  }
+
+  recipeProtein() {
+    return widget.recipe
+        .map(
+          (e) => Text(
+            "${e.quantity} ${e.measure} de ${e.item} " ?? "",
+            style: TextStyle(
+              fontFamily: 'Roboto',
+              fontSize: 18,
+            ),
+          ),
+        )
+        .where((element) => true)
+        .toList();
   }
 }

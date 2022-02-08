@@ -35,14 +35,16 @@ class Recipe {
   int? value;
   int? quantity;
   String? measure;
+  String? tipo;
 
-  Recipe({this.item, this.value, this.quantity, this.measure});
+  Recipe({this.item, this.value, this.quantity, this.measure, this.tipo});
 
   Recipe.fromJson(Map<String, dynamic> json) {
     item = json['item'];
     value = json['value'];
     quantity = json['quantity'];
     measure = json['measure'];
+    tipo = json['tipo'];
   }
 
   Map<String, dynamic> toJson() {
@@ -51,6 +53,7 @@ class Recipe {
     data['value'] = this.value;
     data['quantity'] = this.quantity;
     data['measure'] = this.measure;
+    data['tipo'] = this.tipo;
     return data;
   }
 }
