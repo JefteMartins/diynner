@@ -21,7 +21,10 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset('assets/images/logo.png'),
+              Padding(
+                padding: const EdgeInsets.only(bottom: 40.0),
+                child: Image.asset('assets/images/DIYNNER.png'),
+              ),
               Card(
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),

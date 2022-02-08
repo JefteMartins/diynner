@@ -1,10 +1,6 @@
-import 'dart:convert';
-
 import 'package:diynner_alt/infoDataModel.dart';
 import 'package:diynner_alt/item_payment.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter/services.dart' as rootBundle;
 
 class itemDetail extends StatefulWidget {
   const itemDetail(
@@ -93,9 +89,9 @@ class _itemDetailState extends State<itemDetail> {
     return widget.recipe
         .map(
           (e) => Text(
-            "${e.quantity} ${e.measure} de ${e.item} " ?? "",
+            " • ${e.quantity} ${e.measure} de ${e.item} ",
             style: TextStyle(
-              fontFamily: 'Roboto',
+              fontFamily: 'HindMadurai',
               fontSize: 18,
             ),
           ),

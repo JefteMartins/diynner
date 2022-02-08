@@ -5,10 +5,6 @@ import 'package:diynner_alt/item_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as rootBundle;
 
-import 'main.dart';
-
-import 'myapp.dart';
-
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key? key, required this.title}) : super(key: key);
   final String title;
