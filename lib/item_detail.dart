@@ -7,12 +7,14 @@ class itemDetail extends StatefulWidget {
       {Key? key,
       required this.title,
       required this.image,
-      required this.recipe})
+      required this.recipe,
+      required this.steps})
       : super(key: key);
 
   final String title;
   final String image;
   final List<Recipe> recipe;
+  final List<Preparation> steps;
 
   @override
   _itemDetailState createState() => _itemDetailState();
@@ -48,7 +50,7 @@ class _itemDetailState extends State<itemDetail> {
                 padding: const EdgeInsets.only(
                     top: 8, bottom: 8, right: 8, left: 20),
                 child: Text(
-                  "Proteínas",
+                  "Elemento principal: ${widget.recipe[0].item}",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 18,
@@ -62,7 +64,46 @@ class _itemDetailState extends State<itemDetail> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    ...recipeProtein(),
+                    ...buildRecipe(),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(
+                    top: 8, bottom: 8, right: 8, left: 20),
+                child: Text(
+                  "Modo de preparo",
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 18,
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(
+                    top: 8, bottom: 8, right: 8, left: 15),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    ...buildSteps(),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(
+                    top: 30, bottom: 50, right: 8, left: 15),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18,
+                      ),
+                    )
                   ],
                 ),
               ),
@@ -85,11 +126,26 @@ class _itemDetailState extends State<itemDetail> {
     );
   }
 
-  recipeProtein() {
+  buildRecipe() {
     return widget.recipe
         .map(
           (e) => Text(
             " • ${e.quantity} ${e.measure} de ${e.item} ",
+            style: TextStyle(
+              fontFamily: 'HindMadurai',
+              fontSize: 18,
+            ),
+          ),
+        )
+        .where((element) => true)
+        .toList();
+  }
+
+  buildSteps() {
+    return widget.steps
+        .map(
+          (e) => Text(
+            "${e.step} - ${e.description} ",
             style: TextStyle(
               fontFamily: 'HindMadurai',
               fontSize: 18,

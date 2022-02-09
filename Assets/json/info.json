@@ -4,6 +4,38 @@
     "id": 1,
     "name": "Arroz à grega",
     "image": "https://img.itdg.com.br/tdg/images/recipes/000/088/750/352590/352590_original.jpg?w=1200",
+    "preparation":[
+      {
+        "step":1,
+        "description":"Refogue a cebola e o alho na margarina."
+      },
+      {
+        "step":2,
+        "description":"Junte o arroz e refogue até secar bem."
+      },
+      {
+        "step":3,
+        "description":"Junte os legumes picados e a água com o caldo de galinha dissolvido."
+      },
+      {
+        "step":4,
+        "description":"Quando ferver, ajuste o sal."
+      },
+      {
+        "step":5,
+        "description":"Tampe e deixe cozinhar em fogo baixo."
+      },
+      {
+        "step":6,
+        "description":"Desligue o fogo quando secar."
+      },
+      {
+        "step":7,
+        "description":"Deixe o arroz na panela, descansando, por mais cerca de 5 minutos."
+      }
+      
+    ]
+    ,
     "recipe":[
       {
         "item":"arroz",
@@ -109,6 +141,38 @@
     "id": 2,
     "name": "Pudim",
     "image": "https://img.itdg.com.br/tdg/images/recipes/000/031/593/318825/318825_original.jpg",
+    "preparation":[
+      {
+        "step":1,
+        "description":"Refogue a cebola e o alho na margarina."
+      },
+      {
+        "step":2,
+        "description":"Junte o arroz e refogue até secar bem."
+      },
+      {
+        "step":3,
+        "description":"Junte os legumes picados e a água com o caldo de galinha dissolvido."
+      },
+      {
+        "step":4,
+        "description":"Quando ferver, ajuste o sal."
+      },
+      {
+        "step":5,
+        "description":"Tampe e deixe cozinhar em fogo baixo."
+      },
+      {
+        "step":6,
+        "description":"Desligue o fogo quando secar."
+      },
+      {
+        "step":7,
+        "description":"Deixe o arroz na panela, descansando, por mais cerca de 5 minutos."
+      }
+      
+    ]
+    ,
     "recipe":[
       {
         "item":"arroz",
@@ -214,6 +278,38 @@
     "id": 3,
     "name": "Feijoada",
     "image": "https://cdn.panelinha.com.br/receita/1588270905274-39_Panelinha_12_02_200635.jpg",
+    "preparation":[
+      {
+        "step":1,
+        "description":"Refogue a cebola e o alho na margarina."
+      },
+      {
+        "step":2,
+        "description":"Junte o arroz e refogue até secar bem."
+      },
+      {
+        "step":3,
+        "description":"Junte os legumes picados e a água com o caldo de galinha dissolvido."
+      },
+      {
+        "step":4,
+        "description":"Quando ferver, ajuste o sal."
+      },
+      {
+        "step":5,
+        "description":"Tampe e deixe cozinhar em fogo baixo."
+      },
+      {
+        "step":6,
+        "description":"Desligue o fogo quando secar."
+      },
+      {
+        "step":7,
+        "description":"Deixe o arroz na panela, descansando, por mais cerca de 5 minutos."
+      }
+      
+    ]
+    ,
     "recipe":[
       {
         "item":"arroz",
@@ -319,6 +415,38 @@
     "id": 4,
     "name": "Feijão tropeiro",
     "image": "https://img.itdg.com.br/tdg/images/recipes/000/000/961/327806/327806_original.jpg",
+    "preparation":[
+      {
+        "step":1,
+        "description":"Refogue a cebola e o alho na margarina."
+      },
+      {
+        "step":2,
+        "description":"Junte o arroz e refogue até secar bem."
+      },
+      {
+        "step":3,
+        "description":"Junte os legumes picados e a água com o caldo de galinha dissolvido."
+      },
+      {
+        "step":4,
+        "description":"Quando ferver, ajuste o sal."
+      },
+      {
+        "step":5,
+        "description":"Tampe e deixe cozinhar em fogo baixo."
+      },
+      {
+        "step":6,
+        "description":"Desligue o fogo quando secar."
+      },
+      {
+        "step":7,
+        "description":"Deixe o arroz na panela, descansando, por mais cerca de 5 minutos."
+      }
+      
+    ]
+    ,
     "recipe":[
       {
         "item":"arroz",
@@ -425,6 +553,38 @@
     "id": 5,
     "name": "Bolo de chocolate",
     "image": "https://i.ytimg.com/vi/QwtZXGRzqvY/maxresdefault.jpg",
+    "preparation":[
+      {
+        "step":1,
+        "description":"Refogue a cebola e o alho na margarina."
+      },
+      {
+        "step":2,
+        "description":"Junte o arroz e refogue até secar bem."
+      },
+      {
+        "step":3,
+        "description":"Junte os legumes picados e a água com o caldo de galinha dissolvido."
+      },
+      {
+        "step":4,
+        "description":"Quando ferver, ajuste o sal."
+      },
+      {
+        "step":5,
+        "description":"Tampe e deixe cozinhar em fogo baixo."
+      },
+      {
+        "step":6,
+        "description":"Desligue o fogo quando secar."
+      },
+      {
+        "step":7,
+        "description":"Deixe o arroz na panela, descansando, por mais cerca de 5 minutos."
+      }
+      
+    ]
+    ,
     "recipe":[
       {
         "item":"arroz",
@@ -531,6 +691,38 @@
     "id": 6,
     "name": "Bolo de cenoura com chocolate",
     "image":"https://assets.unileversolutions.com/recipes-v2/67405.jpg",
+    "preparation":[
+      {
+        "step":1,
+        "description":"Refogue a cebola e o alho na margarina."
+      },
+      {
+        "step":2,
+        "description":"Junte o arroz e refogue até secar bem."
+      },
+      {
+        "step":3,
+        "description":"Junte os legumes picados e a água com o caldo de galinha dissolvido."
+      },
+      {
+        "step":4,
+        "description":"Quando ferver, ajuste o sal."
+      },
+      {
+        "step":5,
+        "description":"Tampe e deixe cozinhar em fogo baixo."
+      },
+      {
+        "step":6,
+        "description":"Desligue o fogo quando secar."
+      },
+      {
+        "step":7,
+        "description":"Deixe o arroz na panela, descansando, por mais cerca de 5 minutos."
+      }
+      
+    ]
+    ,
     "recipe":[
       {
         "item":"arroz",
@@ -636,6 +828,38 @@
     "id": 7,
     "name": "Fricassê",
     "image": "https://assets.unileversolutions.com/recipes-v2/212080.png",
+    "preparation":[
+      {
+        "step":1,
+        "description":"Refogue a cebola e o alho na margarina."
+      },
+      {
+        "step":2,
+        "description":"Junte o arroz e refogue até secar bem."
+      },
+      {
+        "step":3,
+        "description":"Junte os legumes picados e a água com o caldo de galinha dissolvido."
+      },
+      {
+        "step":4,
+        "description":"Quando ferver, ajuste o sal."
+      },
+      {
+        "step":5,
+        "description":"Tampe e deixe cozinhar em fogo baixo."
+      },
+      {
+        "step":6,
+        "description":"Desligue o fogo quando secar."
+      },
+      {
+        "step":7,
+        "description":"Deixe o arroz na panela, descansando, por mais cerca de 5 minutos."
+      }
+      
+    ]
+    ,
     "recipe":[
       {
         "item":"arroz",
@@ -742,6 +966,38 @@
     "id": 8,
     "name": "Creme de galinha",
     "image": "https://achougastronomia.com.br/wp-content/uploads/2022/01/Receita-de-creme-de-galinha.jpg",
+    "preparation":[
+      {
+        "step":1,
+        "description":"Refogue a cebola e o alho na margarina."
+      },
+      {
+        "step":2,
+        "description":"Junte o arroz e refogue até secar bem."
+      },
+      {
+        "step":3,
+        "description":"Junte os legumes picados e a água com o caldo de galinha dissolvido."
+      },
+      {
+        "step":4,
+        "description":"Quando ferver, ajuste o sal."
+      },
+      {
+        "step":5,
+        "description":"Tampe e deixe cozinhar em fogo baixo."
+      },
+      {
+        "step":6,
+        "description":"Desligue o fogo quando secar."
+      },
+      {
+        "step":7,
+        "description":"Deixe o arroz na panela, descansando, por mais cerca de 5 minutos."
+      }
+      
+    ]
+    ,
     "recipe":[
       {
         "item":"arroz",
@@ -848,6 +1104,38 @@
     "id": 9,
     "name": "Lasanha",
     "image": "https://sanremo.imgix.net/2017/05/Traditional-Lasagna-Plated-1500x1000.jpg?auto=format&w=2000",
+    "preparation":[
+      {
+        "step":1,
+        "description":"Refogue a cebola e o alho na margarina."
+      },
+      {
+        "step":2,
+        "description":"Junte o arroz e refogue até secar bem."
+      },
+      {
+        "step":3,
+        "description":"Junte os legumes picados e a água com o caldo de galinha dissolvido."
+      },
+      {
+        "step":4,
+        "description":"Quando ferver, ajuste o sal."
+      },
+      {
+        "step":5,
+        "description":"Tampe e deixe cozinhar em fogo baixo."
+      },
+      {
+        "step":6,
+        "description":"Desligue o fogo quando secar."
+      },
+      {
+        "step":7,
+        "description":"Deixe o arroz na panela, descansando, por mais cerca de 5 minutos."
+      }
+      
+    ]
+    ,
     "recipe":[
       {
         "item":"arroz",
@@ -954,6 +1242,38 @@
     "id": 10,
     "name": "Macarronada",
     "image": "https://img.cybercook.com.br/receitas/634/macarronada-3.jpeg",
+    "preparation":[
+      {
+        "step":1,
+        "description":"Refogue a cebola e o alho na margarina."
+      },
+      {
+        "step":2,
+        "description":"Junte o arroz e refogue até secar bem."
+      },
+      {
+        "step":3,
+        "description":"Junte os legumes picados e a água com o caldo de galinha dissolvido."
+      },
+      {
+        "step":4,
+        "description":"Quando ferver, ajuste o sal."
+      },
+      {
+        "step":5,
+        "description":"Tampe e deixe cozinhar em fogo baixo."
+      },
+      {
+        "step":6,
+        "description":"Desligue o fogo quando secar."
+      },
+      {
+        "step":7,
+        "description":"Deixe o arroz na panela, descansando, por mais cerca de 5 minutos."
+      }
+      
+    ]
+    ,
     "recipe":[
       {
         "item":"arroz",

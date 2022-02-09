@@ -2,14 +2,22 @@ class InfoDataModel {
   int? id;
   String? name;
   String? image;
+  List<Preparation>? preparation;
   List<Recipe>? recipe;
 
-  InfoDataModel({this.id, this.name, this.image, this.recipe});
+  InfoDataModel(
+      {this.id, this.name, this.image, this.preparation, this.recipe});
 
   InfoDataModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     name = json['name'];
     image = json['image'];
+    if (json['preparation'] != null) {
+      preparation = <Preparation>[];
+      json['preparation'].forEach((v) {
+        preparation!.add(new Preparation.fromJson(v));
+      });
+    }
     if (json['recipe'] != null) {
       recipe = <Recipe>[];
       json['recipe'].forEach((v) {
@@ -23,9 +31,31 @@ class InfoDataModel {
     data['id'] = this.id;
     data['name'] = this.name;
     data['image'] = this.image;
+    if (this.preparation != null) {
+      data['preparation'] = this.preparation!.map((v) => v.toJson()).toList();
+    }
     if (this.recipe != null) {
       data['recipe'] = this.recipe!.map((v) => v.toJson()).toList();
     }
+    return data;
+  }
+}
+
+class Preparation {
+  int? step;
+  String? description;
+
+  Preparation({this.step, this.description});
+
+  Preparation.fromJson(Map<String, dynamic> json) {
+    step = json['step'];
+    description = json['description'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['step'] = this.step;
+    data['description'] = this.description;
     return data;
   }
 }
