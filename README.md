@@ -1,4 +1,4 @@
-# diynner_alt
+# Diynner - Mistura de Do it Youself e Diner 
 
 Projeto de entrega de comimda/insumos que está sendo desenvolvido para uma cadeira da faculdade
 
