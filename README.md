@@ -1,5 +1,7 @@
 # Diynner - Mistura de Do it Youself e Diner 
 
+## Versão 2.0 em React Native a Caminho!
+
 Projeto de entrega de comimda/insumos que está sendo desenvolvido para uma cadeira da faculdade
 
 <hr>
